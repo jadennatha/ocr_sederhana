@@ -125,7 +125,6 @@ class _ScanScreenState extends State<ScanScreen> {
               onPressed: _takePicture,
               icon: const Icon(Icons.camera),
               label: const Text('Ambil Foto & Scan'),
-
             ),
           ),
         ],

@@ -11,9 +11,8 @@ class HomeScreen extends StatelessWidget {
       body: ListView(
         children: [
           ListTile(
-            leading: const Icon(Icons.camera_alt),
-            title: const Text('Mulai Scan Teks'),
-            subtitle: const Text('Scan teks dari kamera'),
+            leading: Icon(Icons.camera_alt, color: Colors.blue),
+            title: Text('Mulai Pindai Teks Baru'),
             onTap: () {
               Navigator.push(
                 context,
